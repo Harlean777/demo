@@ -1,0 +1,30 @@
+page,
+.start-image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.start-image {
+  position: relative;
+}
+
+.start-image .image {
+  width: 100%;
+  height: 100%;
+}
+
+.btn {
+  position: absolute;
+  left: 50%;
+  bottom: 164rpx;
+  margin-left: -315rpx;
+  width: 630rpx;
+  height: 96rpx;
+  border-radius: 48rpx;
+  line-height: 96rpx;
+  text-align: center;
+  background-color: #CF9947;
+  color: #fff;
+  font-size: 34rpx;
+}

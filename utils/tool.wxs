@@ -1,0 +1,11 @@
+var formateNumber = function (num)  {
+  var num = num.toString();
+  return num.substring(0,3) + "****" + num.substring(7);
+}
+var formateStringToArray = function (str)  {
+  return str.split(',');
+}
+module.exports = {
+  formateNumber: formateNumber,
+  formateStringToArray: formateStringToArray
+};

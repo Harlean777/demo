@@ -1,0 +1,7 @@
+<!--pages/index/index.wxml-->
+<view class="start-image">
+  <image src="../../images/textimg.png" mode="aspectFill" class="image"></image>
+  <view class="btn" bindtap="skipHome">
+    进入小程序
+  </view>
+</view>
